@@ -1,0 +1,240 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f7f9fb;
+}
+
+/* Top Navbar */
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.search_bar input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.search_bar button {
+  background: #00c1c1;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.right ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.right li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.right ion-icon {
+  color: #00aaff;
+  font-size: 20px;
+}
+
+/* Bottom Navigation */
+.bottom_nav ul {
+  display: flex;
+  justify-content: center;
+  background: #00c1c1;
+  padding: 12px 0;
+  list-style: none;
+}
+
+.bottom_nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.bottom_nav a:hover {
+  color: #004d4d;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #333;
+}
+
+/* Explore Section (used on index.html) */
+.explore ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+  list-style: none;
+}
+
+.explore li {
+  text-align: center;
+}
+
+.explore img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  transition: transform 0.3s ease;
+}
+
+.explore img:hover {
+  transform: scale(1.1);
+}
+
+/* Menu Section (used on machine.html and medicine.html) */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 30px 40px;
+  background: #fff;
+}
+
+.menu-medicine {
+  background: #c1dfddf1;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.menu-medicine:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.menu-medicine img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.menu-medicine h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.menu-medicine h2 {
+  font-size: 18px;
+  color: #00b894;
+}
+
+.menu-medicine button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #00c1c1;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-medicine button:hover {
+  background: #008b8b;
+}
+
+/* Footer */
+footer {
+  background: #2c2c2c;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+footer .icon a {
+  font-size: 20px;
+  color: white;
+  margin-right: 12px;
+  display: inline-block;
+  padding: 10px;
+  background: #00c1c1;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+footer .icon a:hover {
+  background: #008b8b;
+}
+
+footer table {
+  color: #ccc;
+  margin: 20px 0;
+}
+
+footer table th {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer table td {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+footer .email {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+}
+
+footer button {
+  background: #00c1c1;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+  
