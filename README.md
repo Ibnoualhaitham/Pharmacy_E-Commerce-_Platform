@@ -1,1 +1,1 @@
-# Pharmacy_E-Commerce_Platform
+# Pharmacy_Ecommerce_Platform
